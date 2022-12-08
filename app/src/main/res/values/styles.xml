@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="Edit_text1">
+    
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_marginTop">30dp</item>
+    <item name="android:layout_marginLeft">20dp</item>
+    <item name="android:layout_marginRight">20dp</item>
+    <item name="android:background">@drawable/edit_text</item>
+    <item name="android:padding">15dp</item>
+    <item name="android:hint">login</item>
+    <item name="android:textColor">@color/cinza</item>
+
+</style>
+    <style name="Edit_text2">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:hint">senha</item>
+        <item name="android:textColor">@color/cinza</item>
+        <item name="android:drawableRight">@drawable/olho</item>
+    </style>
+
+    <style name="btn">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:background">@drawable/btn</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:text">@string/entrar</item>
+        <item name="android:textSize">20dp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+
+</resources>
