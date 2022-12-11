@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
     android:orientation="vertical"
-    android:background="@drawable/backgraud">
+    android:background="@drawable/backgraud_principal">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -60,9 +60,20 @@
         android:layout_marginTop="75dp">
 
         <androidx.appcompat.widget.AppCompatButton
-            style="@style/btn"
-            />
+            style="@style/btn" />
 
 
     </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+
+        />
+
+
+
 </androidx.appcompat.widget.LinearLayoutCompat>
