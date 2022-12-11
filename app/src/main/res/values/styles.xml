@@ -1,45 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<style name="Edit_text1">
-    
-    <item name="android:layout_width">match_parent</item>
-    <item name="android:layout_height">wrap_content</item>
-    <item name="android:layout_marginTop">30dp</item>
-    <item name="android:layout_marginLeft">20dp</item>
-    <item name="android:layout_marginRight">20dp</item>
-    <item name="android:background">@drawable/edit_text</item>
-    <item name="android:padding">15dp</item>
-    <item name="android:hint">login</item>
-    <item name="android:textColor">@color/cinza</item>
+    <style name="spiner" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:entries">@array/opcao</item>
 
-</style>
-    <style name="Edit_text2">
+    </style>
 
+    <style name="imagem_principal" >
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_marginTop">80dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/img_ifmg3</item>
+
+    </style>
+
+    <style name="Edit_text_login">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:background">@drawable/backgraud_edit_text</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:hint">login</item>
+        <item name="android:textColor">@color/cinza</item>
+    </style>
+
+    <style name="Edit_text_senha">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">5dp</item>
         <item name="android:layout_marginLeft">20dp</item>
         <item name="android:layout_marginRight">20dp</item>
-        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:background">@drawable/backgraud_edit_text</item>
         <item name="android:padding">15dp</item>
         <item name="android:hint">senha</item>
         <item name="android:textColor">@color/cinza</item>
-        <item name="android:drawableRight">@drawable/olho</item>
+        <item name="android:drawableRight">@drawable/ico_olho</item>
     </style>
 
-    <style name="btn">
-
+    <style name="btnEntrar">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">5dp</item>
         <item name="android:layout_marginLeft">20dp</item>
         <item name="android:layout_marginRight">20dp</item>
-        <item name="android:background">@drawable/btn</item>
+        <item name="android:background">@drawable/backgraud_btn</item>
         <item name="android:padding">15dp</item>
         <item name="android:text">@string/entrar</item>
         <item name="android:textSize">20dp</item>
         <item name="textAllCaps">false</item>
     </style>
 
+    <style name="imagem_logo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">100dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/img_logo</item>
+    </style>
+
+    <style name="titulo_tela_dois">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:text">@string/titulo2</item>
+        <item name="android:textColor">@color/cinza</item>
+        <item name="android:textSize">40dp</item>
+
+    </style>
+
+    <style name="btn_tela_dois">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:background">@drawable/backgraud_btn2</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="textViewMural">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:text">@string/mural</item>
+        <item name="android:textColor">@color/cinza</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+
+    <style name="mural">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:background">@drawable/backgraud_text_view1</item>
+        <item name="android:padding">150dp</item>
+        <item name="android:textColor">@color/cinza</item>
+
+
+    </style>
 
 </resources>

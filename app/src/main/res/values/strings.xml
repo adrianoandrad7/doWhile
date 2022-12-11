@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">doWhile</string>
     <string name="entrar">Entrar</string>
+    <string name="mural">Mural de Avisos</string>
+    <string name="marcar">Efetuar Marcação</string>
+    <string name="corrigir">Efetuar Correção</string>
+    <string name="titulo2">Banco de Horas</string>
+
 </resources>
