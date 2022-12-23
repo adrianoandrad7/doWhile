@@ -6,20 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
     android:orientation="vertical"
-    android:background="@drawable/backgraud_segundario">
+    android:background="@drawable/backgraud_secundario">
 
-    <TextView
-        style="@style/titulo_tela_dois"/>
+    <ImageView
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/img_ifmg3"
+
+        />
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="30dp"
-        android:gravity="center_horizontal">
+        android:layout_marginTop="200dp"
+        android:gravity="center_horizontal"
+        >
+
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/buttonMarcacao"
+            android:id="@+id/buttonDirMarcacao"
             style="@style/btn_tela_dois"
             android:text = "@string/marcar"
             app:drawableRightCompat="@drawable/ico_relogio"
@@ -33,28 +42,13 @@
         android:orientation="horizontal">
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/buttonCorrecao"
+            android:id="@+id/buttonDirCorrecao"
             style="@style/btn_tela_dois"
             android:text = "@string/corrigir"
             app:drawableRightCompat="@drawable/ico_edita" />
 
     </LinearLayout>
 
-    <TextView
-        style="@style/textViewMural"/>
 
-    <LinearLayout
-
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            style="@style/mural"
-            android:layout_height="325dp" />
-
-    </LinearLayout>
-
-    <ImageView
-       style="@style/imagem_logo" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
