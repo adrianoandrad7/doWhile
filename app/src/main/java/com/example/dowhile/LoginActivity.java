@@ -5,8 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
 
 public class LoginActivity extends AppCompatActivity {
@@ -37,7 +35,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private void trocaActivEntrar(){
 
-        Intent transJanela2 = new Intent(LoginActivity.this,SegundaTelaActivity.class);
+        Intent transJanela2 = new Intent(LoginActivity.this, TelaActivityCorr.class);
         startActivity(transJanela2);
 
     }
