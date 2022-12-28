@@ -28,7 +28,7 @@
         android:orientation="horizontal">
 
         <EditText
-            android:id="@+id/login"
+            android:id="@+id/email"
             style="@style/Edit_text_login" />
 
     </LinearLayout>

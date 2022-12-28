@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "279383793429",
+    "project_id": "bate-ponto-39155",
+    "storage_bucket": "bate-ponto-39155.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279383793429:android:05c146a5faaafb0026131c",
+        "android_client_info": {
+          "package_name": "com.example.dowhile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279383793429-q5eq0bii93ijrhm8ho6foq56ff4n60aa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dowhile",
+            "certificate_hash": "03f1927cdd61c348d0b869b664182405006248f7"
+          }
+        },
+        {
+          "client_id": "279383793429-f9e2psa95d4u67bo933kioh1vs72kn17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtNnfeqgtXrwnzYbA4uiRznKSwVi61_L8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279383793429-f9e2psa95d4u67bo933kioh1vs72kn17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
