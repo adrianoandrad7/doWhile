@@ -100,7 +100,86 @@
         <item name="android:textSize">20dp</item>
     </style>
 
+    <style name="imagem_logo_if">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:src">@drawable/img_ifmg</item>
+    </style>
 
+    <style name="maps">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+
+    </style>
+
+    <style name="relogio">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/relogio</item>
+        <item name="android:textSize">60dp</item>
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+
+    <style name="ultMarc">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/backgraund_ult_marc</item>
+
+
+    </style>
+
+    <style name="textMarc">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/ultMarc</item>
+
+    </style>
+
+    <style name="btn_eft_marc">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:background">@drawable/backgraud_btn3</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:text">@string/eft_marc</item>
+        <item name="android:textSize">20dp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="localizacao">
+        <item name="android:src">@drawable/location</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="text_localizacao">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:text">@string/title_localizacao</item>
+    </style>
 
 
 </resources>

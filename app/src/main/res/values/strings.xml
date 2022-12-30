@@ -1,9 +1,15 @@
 <resources>
     <string name="app_name">doWhile</string>
+    <string name="relogio">00:00</string>
     <string name="entrar">Entrar</string>
     <string name="mural">Mural de Avisos</string>
     <string name="marcar">Efetuar Marcação</string>
     <string name="corrigir">Efetuar Correção</string>
     <string name="titulo2">Banco de Horas</string>
+    <string name="ultMarc">Últimas Marcações</string>
+    <string name="eft_marc">Marcar</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_localizacao">Current Location...</string>
+
 
 </resources>

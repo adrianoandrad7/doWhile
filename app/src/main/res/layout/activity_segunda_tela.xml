@@ -9,13 +9,7 @@
     android:background="@drawable/backgraud_secundario">
 
     <ImageView
-        android:layout_marginTop="80dp"
-        android:layout_gravity="center"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:src="@drawable/img_ifmg3"
-
-        />
+        style="@style/imagem_principal" />
 
 
     <LinearLayout
@@ -25,7 +19,6 @@
         android:layout_marginTop="200dp"
         android:gravity="center_horizontal"
         >
-
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/buttonDirMarcacao"

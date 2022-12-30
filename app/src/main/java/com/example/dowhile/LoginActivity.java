@@ -99,7 +99,7 @@ public class LoginActivity extends AppCompatActivity {
                 });
     }
     private void trocaActivEntrar(){
-        Intent transJanela2 = new Intent(LoginActivity.this, TelaActivityCorr.class);
+        Intent transJanela2 = new Intent(LoginActivity.this, Marcacao_activity.class);
         startActivity(transJanela2);
         finish();
     }

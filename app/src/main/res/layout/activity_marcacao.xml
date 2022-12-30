@@ -1,17 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MarcacaoActivity">
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ImageView
+        style="@style/imagem_logo_if" />
+
+    <ImageView
+        style="@style/localizacao" />
+    <TextView
+        android:id="@+id/tex_localizacao"
+        style="@style/text_localizacao" />
+
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Teste"
-        android:textSize="40dp"
-        android:textColor="@color/verde"/>
+        android:id="@+id/relogio"
+        style="@style/relogio" />
+    <TextView
+        style="@style/textMarc" />
+
+    <TextView
+        android:id="@+id/ultMarcacoes"
+        style="@style/ultMarc" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_eft_marc"
+        style="@style/btn_eft_marc" />
+
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>
